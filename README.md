@@ -15,3 +15,7 @@
 `packs/` 下每个子目录是一首诗，内置诗词和自定义诗词用同一种格式，示例见 [`packs/ti-du-cheng-nan-zhuang`](packs/ti-du-cheng-nan-zhuang/pack.toml)。
 
 故事按古籍原典用白话改写，并标注出处和可信度（`recorded` 史载 / `legend` 传说 / `speculative` 推测）。
+
+## 许可证
+
+[MIT](LICENSE)
