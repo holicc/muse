@@ -1,0 +1,58 @@
+# muse 配置示例。复制到配置目录（muse config 可以看到位置）改名为 config.toml。
+# 所有项都可以省略，省略时用这里写的默认值；命令行参数会覆盖配置文件。
+
+# 诗词包目录，相对路径按配置文件所在目录解析。
+# 不填时依次找：当前目录的 packs、程序旁边的 packs、配置目录下的 packs。
+# packs = "packs"
+
+# 字体：字体文件路径，或系统里的字体名（fc-list 可以查看），不填自动找中文宋体。
+# 可变字体（如 Noto Serif CJK）会自动用不同字重：标题粗、正文常规、注释细。
+# font = "LXGW WenKai"
+# font = "/path/to/font.ttf"
+
+# 诗画在什么背景上：
+#   "auto"  当前桌面壁纸（默认），找不到时用诗词包自带的背景
+#   "pack"  诗词包自带的背景
+#   图片路径（png、jpg、webp、bmp），如 "~/Pictures/wallpaper.jpg"
+# 画在壁纸上时，文字颜色按图片在文字区域的明暗自动选深色或浅色。
+wallpaper = "auto"
+
+# 字的颜色："auto" 按背景自动选深色或浅色；也可以写固定颜色，如 "#c8a96e"。
+# 标题、正文用这个颜色，署名、刊头等小字用同色但淡一些，印章保持朱红。
+# 每首诗还可以单独配色（部件颜色、渐变、单个字）：写在配置目录的 poems/<诗词包目录名>.toml，
+# 例如 poems/jing-ye-si.toml：
+#   color = "#e8ebf5"                  整首（标题、正文、署名）
+#   title = "#e0b04a"
+#   "line.1" = ["#ffffff", "#7aa8ff"]  渐变，顺着阅读方向
+#   "line.3.2" = "#ff5a4a80"           第 3 列第 2 个字；8 位写法带透明度
+#   seal = "#2f6f4f"                   印章底色
+#   wallpaper = "pack"                 这首诗单独的背景
+# 一般用设计窗口（muse arrange）改，它写这个文件时保留你的注释；手改后用 muse reload 让壁纸生效。
+text_color = "auto"
+
+# 版式：magazine（杂志风：大标题、细线、印章、刊头）或 classic（传统居中）。
+# 诗词包的 [text] 里写了 style 时以包为准。
+style = "magazine"
+# 字号倍数，0.3 到 3。
+text_scale = 1.0
+# 诗的位置、部件的字号和透明度用设计窗口（muse arrange 或托盘的「调整与设计」）调整，单独保存，不写在这个文件里。
+#
+# 设计窗口里改的全局设置写进状态目录的 settings.toml，覆盖这里的同名项；这个文件程序永远不改。
+
+# 从哪个包（目录名）开始；single = true 时只显示这一首。
+# start = "ti-du-cheng-nan-zhuang"
+single = false
+
+# 插电时的帧率。
+fps = 30
+# 用电池时的帧率，0 表示用电池时暂停动画。
+battery_fps = 15
+# 全屏应用在前台时暂停（Windows 有效；macOS、X11、Wayland 在被遮挡时本来就会暂停）。
+pause_on_fullscreen = true
+
+# 每首诗全部显示后停留的秒数，以及逐字出现的间隔。
+hold = 90.0
+char_interval = 0.35
+
+# 显示托盘图标（Linux 需要支持 StatusNotifierItem 的面板）。
+tray = true

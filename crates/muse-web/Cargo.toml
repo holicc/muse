@@ -1,0 +1,24 @@
+[package]
+name = "muse-web"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+# 设计窗口的画布：把 muse-render 编译成 wasm，在 Electron 的 WebGPU 画布上渲染，
+# 效果和桌面壁纸一致。构建见 gui/package.json 的 build:wasm。
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+muse-core = { path = "../muse-core" }
+muse-render = { path = "../muse-render" }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+toml = "1.2.2"
+wgpu = "30.0.2"
+wasm-bindgen = "=0.2.130"
+wasm-bindgen-futures = "0.4"
+web-sys = { version = "0.3", features = ["HtmlCanvasElement"] }
+console_error_panic_hook = "0.1"

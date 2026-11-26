@@ -1,0 +1,105 @@
+/* 设计稿「设计令牌」：宣纸（浅色）、松烟墨（深色）。画布上的叠加层不随主题变。 */
+:root {
+  --bg-stage: #E9E5DC;
+  --bg-panel: #F7F5F0;
+  --bg-raised: #FDFCF9;
+  --bg-sunken: #ECE8E0;
+  --bg-hover: #EEEAE2;
+  --bg-press: #E4DFD5;
+  --seg-on: #FFFFFF;
+  --seg-on-shadow: 0 1px 2px rgba(40,30,15,.10), 0 0 0 1px rgba(40,30,15,.06);
+  --line-hair: #DDD7CB;
+  --line-strong: #C6BFB1;
+  --text-1: #1E1C19;
+  --text-2: #57524A;
+  --text-3: #736D63;
+  --text-disabled: #ABA597;
+  --accent: #B23A2C;
+  --accent-hover: #9E3125;
+  --accent-press: #8A2A20;
+  --accent-text: #A3342A;
+  --accent-soft: #F4E3DE;
+  --error: #D0473A;
+  --error-halo: rgba(208,71,58,.18);
+  --error-text: #B3261E;
+  --tip-bg: #1E1C19;
+  --tip-fg: #F7F5F0;
+  --flag-off: #FFFFFF;
+  --fold: #736D63;
+  --thumb: #FFFFFF;
+  --checker: repeating-conic-gradient(#D8D4CC 0% 25%, #FFFFFF 0% 50%) 0 0 / 8px 8px;
+  --hatch: repeating-linear-gradient(135deg, transparent 0 4px, #ECE8E0 4px 5px);
+  --shadow-pop: 0 8px 24px rgba(40,30,15,.14), 0 1px 2px rgba(40,30,15,.08);
+  --shadow-screen: 0 1px 2px rgba(40,30,15,.08), 0 14px 36px rgba(40,30,15,.16);
+  --shadow-drawer: -12px 0 32px rgba(40,30,15,.18);
+  --shadow-thumb: 0 0 0 1px rgba(0,0,0,.18), 0 1px 3px rgba(0,0,0,.2);
+  --scrim: rgba(30,28,25,.10);
+
+  /* 画布叠加层，两套主题一样 */
+  --ov-hover: rgba(255,255,255,.95);
+  --ov-hover-halo: rgba(24,20,16,.45);
+  --ov-select: #E5483A;
+  --ov-select-halo: rgba(255,255,255,.78);
+  --ov-select-chip: #C2402F;
+  --ov-chip: rgba(30,28,25,.92);
+  --ov-chip-fg: #F7F5F0;
+  --ov-chip-border: rgba(255,255,255,.14);
+  --ov-guide: #2EA3C7;
+  --ov-guide-chip: #1F7F9E;
+  --ov-ghost: rgba(30,28,25,.55);
+
+  --font-ui: 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  --font-serif: 'Noto Serif SC', 'Noto Serif CJK SC', 'Songti SC', 'STSong', serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+
+  --ease-ink: cubic-bezier(.22, 1, .36, 1);
+  --ease-flow: cubic-bezier(.45, 0, .25, 1);
+  --ease-exit: cubic-bezier(.4, 0, 1, 1);
+  --t-micro: 90ms;
+  --t-fast: 120ms;
+  --t-base: 160ms;
+  --t-move: 220ms;
+  --t-panel: 280ms;
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  --bg-stage: #0E0E0D;
+  --bg-panel: #1A1917;
+  --bg-raised: #23221F;
+  --bg-sunken: #121110;
+  --bg-hover: #262521;
+  --bg-press: #2E2C28;
+  --seg-on: #34322D;
+  --seg-on-shadow: 0 1px 2px rgba(0,0,0,.4), 0 0 0 1px rgba(255,255,255,.04);
+  --line-hair: #2F2D29;
+  --line-strong: #45423C;
+  --text-1: #EDE9E1;
+  --text-2: #B0AA9F;
+  --text-3: #8F897E;
+  --text-disabled: #5A564F;
+  --accent: #C94B3D;
+  --accent-hover: #D65A4B;
+  --accent-press: #B54134;
+  --accent-text: #F08072;
+  --accent-soft: #3A221D;
+  --error-text: #F08072;
+  --tip-bg: #EDE9E1;
+  --tip-fg: #1A1917;
+  --flag-off: #D8D3C9;
+  --fold: #8F897E;
+  --thumb: #EDE9E1;
+  --hatch: repeating-linear-gradient(135deg, transparent 0 4px, #121110 4px 5px);
+  --shadow-pop: 0 10px 28px rgba(0,0,0,.55), 0 1px 2px rgba(0,0,0,.4);
+  --shadow-screen: 0 0 0 1px #2A2926, 0 18px 44px rgba(0,0,0,.6);
+  --shadow-drawer: -12px 0 32px rgba(0,0,0,.6);
+  --scrim: rgba(0,0,0,.10);
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --t-move: 120ms;
+    --t-panel: 120ms;
+  }
+}

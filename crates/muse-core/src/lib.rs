@@ -3,6 +3,11 @@
 //! 一个诗词包是一个目录，里面有 `pack.toml`，以及它引用的故事文本和图层图片。
 //! 内置诗词和用户自定义的诗词用同一种格式。
 
+pub mod config;
+pub mod layout;
+pub mod scene;
+pub mod style;
+
 use std::path::{Path, PathBuf};
 
 use serde::Deserialize;
@@ -91,6 +96,20 @@ pub struct TextStyle {
     pub position: TextPosition,
     #[serde(default)]
     pub orientation: Orientation,
+    /// 版式；不写时用用户设置（默认杂志风）。
+    #[serde(default)]
+    pub style: Option<LayoutStyle>,
+}
+
+/// 版式。
+#[derive(Debug, Default, Clone, Copy, PartialEq, Eq, Deserialize)]
+#[serde(rename_all = "lowercase")]
+pub enum LayoutStyle {
+    /// 传统居中排版，标题、署名小字。
+    Classic,
+    /// 杂志风：大标题、细线分栏、印章、刊头小字。
+    #[default]
+    Magazine,
 }
 
 #[derive(Debug, Default, Clone, Copy, PartialEq, Eq, Deserialize)]
@@ -179,7 +198,11 @@ fn validate(dir: &Path, pack: &Pack) -> Result<(), String> {
 }
 
 fn require_file(dir: &Path, rel: &Path, field: &str) -> Result<(), String> {
-    if rel.is_absolute() || rel.components().any(|c| c == std::path::Component::ParentDir) {
+    if rel.is_absolute()
+        || rel
+            .components()
+            .any(|c| c == std::path::Component::ParentDir)
+    {
         return Err(format!("{field} 必须是包内的相对路径: {}", rel.display()));
     }
     if !dir.join(rel).is_file() {
