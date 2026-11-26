@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "归园田居·其三"
+author = "陶渊明"
+dynasty = "东晋"
+lines = ["种豆南山下", "草盛豆苗稀", "晨兴理荒秽", "带月荷锄归", "道狭草木长", "夕露沾我衣", "衣沾不足惜", "但使愿无违"]
+source = "《陶渊明集》"
+
+[particles]
+preset = "moonlight_dust"
+
+[text]
+position = "right"
+orientation = "vertical"

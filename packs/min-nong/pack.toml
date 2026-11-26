@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "悯农·其二"
+author = "李绅"
+dynasty = "唐"
+lines = ["锄禾日当午", "汗滴禾下土", "谁知盘中餐", "粒粒皆辛苦"]
+source = "《全唐诗》"
+
+[text]
+position = "center"
+orientation = "vertical"

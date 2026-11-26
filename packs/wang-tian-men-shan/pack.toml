@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "望天门山"
+author = "李白"
+dynasty = "唐"
+lines = ["天门中断楚江开", "碧水东流至此回", "两岸青山相对出", "孤帆一片日边来"]
+source = "《全唐诗》"
+
+[text]
+position = "center"
+orientation = "vertical"

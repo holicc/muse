@@ -1,0 +1,20 @@
+format = 1
+
+[poem]
+title = "江城子·记梦"
+author = "苏轼"
+dynasty = "宋"
+lines = ["十年生死两茫茫", "不思量", "自难忘", "千里孤坟", "无处话凄凉", "纵使相逢应不识", "尘满面", "鬓如霜", "夜来幽梦忽还乡", "小轩窗", "正梳妆", "相顾无言", "惟有泪千行", "料得年年肠断处", "明月夜", "短松冈"]
+source = "《全宋词》"
+
+[story]
+file = "story.md"
+credibility = "recorded"
+citation = "苏轼《亡妻王氏墓志铭》"
+
+[particles]
+preset = "moonlight_dust"
+
+[text]
+position = "right"
+orientation = "vertical"

@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "题西林壁"
+author = "苏轼"
+dynasty = "宋"
+lines = ["横看成岭侧成峰", "远近高低各不同", "不识庐山真面目", "只缘身在此山中"]
+source = "《全宋诗》"
+
+[text]
+position = "center"
+orientation = "vertical"

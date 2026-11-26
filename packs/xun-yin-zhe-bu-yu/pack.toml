@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "寻隐者不遇"
+author = "贾岛"
+dynasty = "唐"
+lines = ["松下问童子", "言师采药去", "只在此山中", "云深不知处"]
+source = "《全唐诗》"
+
+[text]
+position = "left"
+orientation = "vertical"

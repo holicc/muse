@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "出塞"
+author = "王昌龄"
+dynasty = "唐"
+lines = ["秦时明月汉时关", "万里长征人未还", "但使龙城飞将在", "不教胡马度阴山"]
+source = "《全唐诗》"
+
+[particles]
+preset = "moonlight_dust"
+
+[text]
+position = "center"
+orientation = "vertical"

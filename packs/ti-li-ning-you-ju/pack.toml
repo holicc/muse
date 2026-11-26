@@ -1,0 +1,20 @@
+format = 1
+
+[poem]
+title = "题李凝幽居"
+author = "贾岛"
+dynasty = "唐"
+lines = ["闲居少邻并", "草径入荒园", "鸟宿池边树", "僧敲月下门", "过桥分野色", "移石动云根", "暂去还来此", "幽期不负言"]
+source = "《全唐诗》"
+
+[story]
+file = "story.md"
+credibility = "legend"
+citation = "计有功《唐诗纪事》卷四十"
+
+[particles]
+preset = "moonlight_dust"
+
+[text]
+position = "right"
+orientation = "vertical"

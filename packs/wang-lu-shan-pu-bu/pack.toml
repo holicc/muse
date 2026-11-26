@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "望庐山瀑布"
+author = "李白"
+dynasty = "唐"
+lines = ["日照香炉生紫烟", "遥看瀑布挂前川", "飞流直下三千尺", "疑是银河落九天"]
+source = "《全唐诗》"
+
+[text]
+position = "right"
+orientation = "vertical"

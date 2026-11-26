@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "塞下曲·其三"
+author = "卢纶"
+dynasty = "唐"
+lines = ["月黑雁飞高", "单于夜遁逃", "欲将轻骑逐", "大雪满弓刀"]
+source = "《全唐诗》"
+
+[particles]
+preset = "snow"
+
+[text]
+position = "right"
+orientation = "vertical"

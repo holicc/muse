@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "苔"
+author = "袁枚"
+dynasty = "清"
+lines = ["白日不到处", "青春恰自来", "苔花如米小", "也学牡丹开"]
+source = "《小仓山房诗集》"
+
+[text]
+position = "left"
+orientation = "vertical"

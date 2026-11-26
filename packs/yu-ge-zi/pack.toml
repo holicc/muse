@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "渔歌子"
+author = "张志和"
+dynasty = "唐"
+lines = ["西塞山前白鹭飞", "桃花流水鳜鱼肥", "青箬笠", "绿蓑衣", "斜风细雨不须归"]
+source = "《全唐诗》"
+
+[particles]
+preset = "rain"
+
+[text]
+position = "right"
+orientation = "vertical"

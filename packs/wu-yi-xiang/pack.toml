@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "乌衣巷"
+author = "刘禹锡"
+dynasty = "唐"
+lines = ["朱雀桥边野草花", "乌衣巷口夕阳斜", "旧时王谢堂前燕", "飞入寻常百姓家"]
+source = "《全唐诗》"
+
+[text]
+position = "right"
+orientation = "vertical"

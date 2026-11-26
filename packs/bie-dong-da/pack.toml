@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "别董大"
+author = "高适"
+dynasty = "唐"
+lines = ["千里黄云白日曛", "北风吹雁雪纷纷", "莫愁前路无知己", "天下谁人不识君"]
+source = "《全唐诗》"
+
+[particles]
+preset = "snow"
+
+[text]
+position = "right"
+orientation = "vertical"

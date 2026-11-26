@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "墨梅"
+author = "王冕"
+dynasty = "元"
+lines = ["吾家洗砚池头树", "朵朵花开淡墨痕", "不要人夸好颜色", "只留清气满乾坤"]
+source = "《竹斋集》"
+
+[text]
+position = "center"
+orientation = "vertical"

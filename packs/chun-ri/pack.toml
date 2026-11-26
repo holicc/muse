@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "春日"
+author = "朱熹"
+dynasty = "宋"
+lines = ["胜日寻芳泗水滨", "无边光景一时新", "等闲识得东风面", "万紫千红总是春"]
+source = "《全宋诗》"
+
+[particles]
+preset = "petals"
+
+[text]
+position = "right"
+orientation = "vertical"

@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "静夜思"
+author = "李白"
+dynasty = "唐"
+lines = ["床前明月光", "疑是地上霜", "举头望明月", "低头思故乡"]
+source = "《唐诗三百首》"
+
+[particles]
+preset = "moonlight_dust"
+
+[text]
+position = "center"
+orientation = "vertical"

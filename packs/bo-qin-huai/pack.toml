@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "泊秦淮"
+author = "杜牧"
+dynasty = "唐"
+lines = ["烟笼寒水月笼沙", "夜泊秦淮近酒家", "商女不知亡国恨", "隔江犹唱后庭花"]
+source = "《全唐诗》"
+
+[particles]
+preset = "moonlight_dust"
+
+[text]
+position = "right"
+orientation = "vertical"

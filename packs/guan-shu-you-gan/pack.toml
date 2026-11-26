@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "观书有感"
+author = "朱熹"
+dynasty = "宋"
+lines = ["半亩方塘一鉴开", "天光云影共徘徊", "问渠那得清如许", "为有源头活水来"]
+source = "《全宋诗》"
+
+[text]
+position = "center"
+orientation = "vertical"

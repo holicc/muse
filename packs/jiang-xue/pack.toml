@@ -1,0 +1,20 @@
+format = 1
+
+[poem]
+title = "江雪"
+author = "柳宗元"
+dynasty = "唐"
+lines = ["千山鸟飞绝", "万径人踪灭", "孤舟蓑笠翁", "独钓寒江雪"]
+source = "《全唐诗》"
+
+[story]
+file = "story.md"
+credibility = "speculative"
+citation = "《旧唐书·柳宗元传》"
+
+[particles]
+preset = "snow"
+
+[text]
+position = "right"
+orientation = "vertical"

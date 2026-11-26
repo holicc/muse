@@ -1,0 +1,20 @@
+format = 1
+
+[poem]
+title = "定风波"
+author = "苏轼"
+dynasty = "宋"
+lines = ["莫听穿林打叶声", "何妨吟啸且徐行", "竹杖芒鞋轻胜马", "谁怕", "一蓑烟雨任平生", "料峭春风吹酒醒", "微冷", "山头斜照却相迎", "回首向来萧瑟处", "归去", "也无风雨也无晴"]
+source = "《全宋词》"
+
+[story]
+file = "story.md"
+credibility = "recorded"
+citation = "苏轼《定风波》词前小序"
+
+[particles]
+preset = "rain"
+
+[text]
+position = "right"
+orientation = "vertical"

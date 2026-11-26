@@ -1,0 +1,17 @@
+format = 1
+
+[poem]
+title = "醉花阴"
+author = "李清照"
+dynasty = "宋"
+lines = ["薄雾浓云愁永昼", "瑞脑消金兽", "佳节又重阳", "玉枕纱厨", "半夜凉初透", "东篱把酒黄昏后", "有暗香盈袖", "莫道不销魂", "帘卷西风", "人比黄花瘦"]
+source = "《全宋词》"
+
+[story]
+file = "story.md"
+credibility = "legend"
+citation = "伊世珍《琅嬛记》"
+
+[text]
+position = "right"
+orientation = "vertical"

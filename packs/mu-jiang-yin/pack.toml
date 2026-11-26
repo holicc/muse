@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "暮江吟"
+author = "白居易"
+dynasty = "唐"
+lines = ["一道残阳铺水中", "半江瑟瑟半江红", "可怜九月初三夜", "露似真珠月似弓"]
+source = "《全唐诗》"
+
+[particles]
+preset = "moonlight_dust"
+
+[text]
+position = "center"
+orientation = "vertical"

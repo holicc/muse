@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "相思"
+author = "王维"
+dynasty = "唐"
+lines = ["红豆生南国", "春来发几枝", "愿君多采撷", "此物最相思"]
+source = "《全唐诗》"
+
+[particles]
+preset = "petals"
+
+[text]
+position = "center"
+orientation = "vertical"

@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "夜雨寄北"
+author = "李商隐"
+dynasty = "唐"
+lines = ["君问归期未有期", "巴山夜雨涨秋池", "何当共剪西窗烛", "却话巴山夜雨时"]
+source = "《全唐诗》"
+
+[particles]
+preset = "rain"
+
+[text]
+position = "right"
+orientation = "vertical"

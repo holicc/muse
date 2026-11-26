@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "惠崇春江晚景"
+author = "苏轼"
+dynasty = "宋"
+lines = ["竹外桃花三两枝", "春江水暖鸭先知", "蒌蒿满地芦芽短", "正是河豚欲上时"]
+source = "《全宋诗》"
+
+[particles]
+preset = "petals"
+
+[text]
+position = "right"
+orientation = "vertical"

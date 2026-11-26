@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "示儿"
+author = "陆游"
+dynasty = "宋"
+lines = ["死去元知万事空", "但悲不见九州同", "王师北定中原日", "家祭无忘告乃翁"]
+source = "《全宋诗》"
+
+[text]
+position = "center"
+orientation = "vertical"

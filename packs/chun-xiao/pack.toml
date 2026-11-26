@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "春晓"
+author = "孟浩然"
+dynasty = "唐"
+lines = ["春眠不觉晓", "处处闻啼鸟", "夜来风雨声", "花落知多少"]
+source = "《全唐诗》"
+
+[particles]
+preset = "petals"
+
+[text]
+position = "right"
+orientation = "vertical"

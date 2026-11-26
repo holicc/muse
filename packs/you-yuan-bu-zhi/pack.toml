@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "游园不值"
+author = "叶绍翁"
+dynasty = "宋"
+lines = ["应怜屐齿印苍苔", "小扣柴扉久不开", "春色满园关不住", "一枝红杏出墙来"]
+source = "《全宋诗》"
+
+[particles]
+preset = "petals"
+
+[text]
+position = "right"
+orientation = "vertical"

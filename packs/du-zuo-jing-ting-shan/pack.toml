@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "独坐敬亭山"
+author = "李白"
+dynasty = "唐"
+lines = ["众鸟高飞尽", "孤云独去闲", "相看两不厌", "只有敬亭山"]
+source = "《全唐诗》"
+
+[text]
+position = "left"
+orientation = "vertical"

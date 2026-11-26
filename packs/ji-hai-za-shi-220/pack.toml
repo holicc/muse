@@ -1,0 +1,12 @@
+format = 1
+
+[poem]
+title = "己亥杂诗·其二百二十"
+author = "龚自珍"
+dynasty = "清"
+lines = ["九州生气恃风雷", "万马齐喑究可哀", "我劝天公重抖擞", "不拘一格降人才"]
+source = "《己亥杂诗》"
+
+[text]
+position = "center"
+orientation = "vertical"

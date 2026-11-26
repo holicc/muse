@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "逢雪宿芙蓉山主人"
+author = "刘长卿"
+dynasty = "唐"
+lines = ["日暮苍山远", "天寒白屋贫", "柴门闻犬吠", "风雪夜归人"]
+source = "《全唐诗》"
+
+[particles]
+preset = "snow"
+
+[text]
+position = "center"
+orientation = "vertical"

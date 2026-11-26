@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "金缕衣"
+author = "杜秋娘"
+dynasty = "唐"
+lines = ["劝君莫惜金缕衣", "劝君惜取少年时", "花开堪折直须折", "莫待无花空折枝"]
+source = "《唐诗三百首》"
+
+[particles]
+preset = "petals"
+
+[text]
+position = "right"
+orientation = "vertical"

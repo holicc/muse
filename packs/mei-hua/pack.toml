@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "梅花"
+author = "王安石"
+dynasty = "宋"
+lines = ["墙角数枝梅", "凌寒独自开", "遥知不是雪", "为有暗香来"]
+source = "《全宋诗》"
+
+[particles]
+preset = "snow"
+
+[text]
+position = "left"
+orientation = "vertical"

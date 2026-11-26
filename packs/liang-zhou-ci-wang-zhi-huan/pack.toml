@@ -1,0 +1,17 @@
+format = 1
+
+[poem]
+title = "凉州词"
+author = "王之涣"
+dynasty = "唐"
+lines = ["黄河远上白云间", "一片孤城万仞山", "羌笛何须怨杨柳", "春风不度玉门关"]
+source = "《全唐诗》"
+
+[story]
+file = "story.md"
+credibility = "legend"
+citation = "薛用弱《集异记》"
+
+[text]
+position = "right"
+orientation = "vertical"

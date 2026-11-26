@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "饮湖上初晴后雨"
+author = "苏轼"
+dynasty = "宋"
+lines = ["水光潋滟晴方好", "山色空蒙雨亦奇", "欲把西湖比西子", "淡妆浓抹总相宜"]
+source = "《全宋诗》"
+
+[particles]
+preset = "rain"
+
+[text]
+position = "right"
+orientation = "vertical"

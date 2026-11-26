@@ -1,0 +1,15 @@
+format = 1
+
+[poem]
+title = "忆江南"
+author = "白居易"
+dynasty = "唐"
+lines = ["江南好", "风景旧曾谙", "日出江花红胜火", "春来江水绿如蓝", "能不忆江南"]
+source = "《全唐诗》"
+
+[particles]
+preset = "petals"
+
+[text]
+position = "right"
+orientation = "vertical"
